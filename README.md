@@ -1,14 +1,12 @@
-[吉田さん
+お世話になっております。ご指摘いただいたPR #261・#262について対応しましたので、ご連絡します。
 
-お手すきの際に以下2件のPRをご確認いただけますでしょうか。
+【PR #261(DifyのAPIキー・接続先を環境変数で管理する)】
+・docs/architecture.mdへの追記は削除してmainの内容に戻し、内容はissue #244へコメントとして記載しました
+・difyConfig.tsは武田さんが作成したsrc/config/配下に移動し、集約しました
+お手すきの際に再度ご確認いただけますと幸いです。
 
-#261 feat(ui-bff): DifyのAPIキー・接続先を環境変数で管理する
-https://github.com/llmpf/MIC_LLM_dev-demo/pull/261
-UI-BFFからDifyへの接続先・APIキーを環境変数化するPRです。Copilotからのコメントが1件未解決のため、あわせてご確認いただけると助かります。
-
-#262 docs(functional-design): RAG引用提示件数・Dify制約・AI結果APIフィールド(msg4値化含む)の現状を追記
-https://github.com/llmpf/MIC_LLM_dev-demo/pull/262
-issue #19・#34・#245関連で、functional-design.mdに実装の現状(RAG引用の提示件数、Dify制約、疑義判定APIのフィールド仕様)を追記するPRです。
+【PR #262(functional-design.md関連)】
+・ご指摘を踏まえ追記内容を全て削除したところ、本PRの実質的な差分がなくなったため、クローズしました
+・追記予定だった内容はissue #245へメモとして記載しています
 
 よろしくお願いいたします。
-](https://github.com/)
